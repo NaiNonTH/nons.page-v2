@@ -1,0 +1,13 @@
+---
+title: Site Updates
+tags:
+  - index
+---
+
+<a href="feed.xml" class="with-arrow">RSS Feed</a>
+<dl>
+  {{ for item of search.pages('updates !index', 'basename=desc') }}
+    <dt>{{ item.basename |> date('HUMAN_DATE') }}</dt>
+    <dd>{{ item.content |> md }}</dd>
+  {{ /for }}
+</dl>

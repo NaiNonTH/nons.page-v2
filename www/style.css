@@ -1,0 +1,224 @@
+html {
+	background: #eee7d7;
+	color: #2f2e2b;
+
+	font-family: "Noto Serif", Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+    margin: 1rem;
+}
+
+main {
+	max-width: 38rem;
+	margin: 2rem auto;
+
+	line-height: 1.75;
+
+	counter-reset: paragraph-counter 0;
+}
+main :first-child {
+	margin-top: 0;
+}
+main :last-child {
+	margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+thead {
+	color: #171715;
+}
+
+a {
+	color: #b50909;
+}
+a:hover {
+	opacity: 0.6;
+}
+
+hr {
+	width: 100%;
+	border: none;
+	border-bottom: 1px dashed;
+	padding: 0 1rem;
+	margin: 2rem 0 2rem -1rem;
+}
+
+dt,
+.with-arrow {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0.5rem 0 1.5rem;
+}
+
+dl.index {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+	gap: 2rem 1rem;
+}
+
+dl.row {
+	display: table;
+	width: 100%;
+}
+dl.row > div {
+	display: table-row;
+}
+dl.row dt,
+dl.row dd {
+	padding: 0.5rem;
+	display: table-cell;
+}
+
+.with-arrow,
+.blog-title a,
+dl.index dt a {
+	text-decoration: none;
+}
+
+.with-arrow::after,
+.blog-title a::after,
+dl.index dt a::after {
+	content: "»";
+	display: inline-block;
+	margin: 0 0.25em;
+}
+
+figure {
+	margin: 2rem 2.5rem;
+}
+figure img {
+	display: block;
+	margin: 0.5rem auto;
+
+	max-width: 100%;
+}
+
+footer,
+figcaption {
+	text-align: center;
+	text-wrap: balance;
+}
+
+blockquote {
+	margin: 2rem 1rem;
+	padding: 1.5rem;
+	border-left: 0.25rem solid #77736b;
+
+	background: #f1ebdf;
+}
+
+table {
+	min-width: 24rem;
+	width: 100%;
+	border-collapse: collapse;
+}
+th,
+td,
+dl.row dt,
+dl.row dd {
+	padding: 0.5rem;
+	border-bottom: 1px solid #d6cfc1;
+}
+th {
+	text-align: left;
+}
+thead th {
+	border-color: #beb8ac;
+}
+
+.breadcrumb ol {
+	padding: 0;
+	list-style: none;
+
+	display: flex;
+	white-space: nowrap;
+}
+.breadcrumb li {
+	max-width: 12rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.breadcrumb li:not(:first-child)::before {
+	content: "»";
+	margin: 0 0.5rem;
+	display: inline-block;
+}
+.breadcrumb li:last-child {
+	flex: 1;
+}
+
+.link-list {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	
+	padding: 0;
+	list-style: none;
+}
+
+.blog-title {
+	font-size: 1em;
+}
+.blog-index p {
+	margin-top: 0.5rem;
+}
+
+header > * {
+	margin: 0;
+}
+
+.scrollable {
+	overflow-x: auto;
+}
+
+figure img,
+blockquote {
+	box-shadow: 0 2px 4px -2px #0003;
+}
+
+.hero-link,
+blockquote footer {
+	text-align: right;
+}
+
+main > article > header,
+section,
+main nav,
+article {
+	margin: 1.5rem 0;
+}
+
+dl,
+table,
+.site-footer,
+.hero-link {
+	margin: 2rem 0;
+}
+
+td,
+dd,
+footer,
+figcaption,
+.breadcrumb,
+.blog-index time,
+.blog-index p,
+.shh {
+    font-size: 0.875em;
+}
+
+footer,
+.blog-index time,
+.shh {
+    color: #5f5c56;
+}

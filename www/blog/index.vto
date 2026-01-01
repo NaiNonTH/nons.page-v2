@@ -1,0 +1,19 @@
+---
+title: Blog
+showTime: false
+tags:
+  - index
+---
+
+<a href="feed.xml" class="with-arrow">RSS Feed</a>
+<section class="blog-index">
+	{{ for item of search.pages('blog !index', 'date=desc') }}
+		<article>
+			<header>
+				<h2 class="blog-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+				<time datetime="{{ item.date }}">{{ item.date |> date('HUMAN_DATE') }}</time>
+			</header>
+			<p>{{ item.description }}</p>
+		</article>
+	{{ /for }}
+</section>
