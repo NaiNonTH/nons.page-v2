@@ -12,6 +12,7 @@
         <link rel="alternate" type="application/rss+xml" href="{{ feed.href }}" title="{{ feed.title }}">
     {{ /if }}
 
+    <link rel="shortcut icon" href="/favicon.ico?t={{ cacheBust }}" type="image/x-icon">
 	<link rel="stylesheet" href="/style.css?t={{ cacheBust }}">
     <link rel="stylesheet" href="/fonts.css?t={{ cacheBust }}">
 	<title>{{ url == "/" ? "nons.page" : title + " - nons.page" }}</title>
@@ -23,7 +24,7 @@
                 {{ set breadcrumbsItem = nav.breadcrumb(url) }}
 
                 {{# Fallback if page isn't found #}}
-                {{ if breadcrumbsItem.length == 0 }} 
+                {{ if breadcrumbsItem.length == 0 }}
 					<li><a aria-current="false" href="/">Home</a></li>
                 {{ /if }}
 
@@ -41,7 +42,7 @@
         <article>
 			<header>
 				<h1>{{ title }}</h1>
-                
+
 				{{ if showTime }}
 					<time class="shh" datetime="{{ date }}">{{ date |> date('HUMAN_DATE') }}</time>
 				{{ /if }}
