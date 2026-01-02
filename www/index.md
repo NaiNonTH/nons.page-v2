@@ -1,6 +1,5 @@
 ---
 title: Hello, world!
-layout: layout.vto
 ---
 
 Hi, I'm **Non**, and welcome to my very personal website: [nons.page](/). This is my home of interests, collections of projects, life and thoughts.

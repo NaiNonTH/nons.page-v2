@@ -1,6 +1,5 @@
 ---
 title: About
-layout: layout.vto
 templateEngine:
   - vto
   - md
