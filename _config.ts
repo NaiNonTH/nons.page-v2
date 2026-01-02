@@ -11,6 +11,7 @@ import inline from "lume/plugins/inline.ts";
 import validate_html from "lume/plugins/validate_html.ts";
 import feed from "lume/plugins/feed.ts";
 import minify_html from "lume/plugins/minify_html.ts";
+import filter_pages from "lume/plugins/filter_pages.ts";
 
 import { figure } from "npm:@mdit/plugin-figure@0.22.2";
 import { format } from "npm:date-fns";
@@ -35,10 +36,6 @@ site.process([".md"], (pages) => {
 
     page.data.title = format(new Date(page.data.basename), "PPP");
   }
-});
-
-site.events.addEventListener("afterBuild", () => {
-  Deno.remove("nons.page/updates/content", { recursive: true });
 });
 
 const now = new Date().getTime();
@@ -111,5 +108,13 @@ site.use(
   }),
 );
 site.use(minify_html());
+site.use(
+  filter_pages({
+    fn: (page) => {
+      const { tags } = page.data;
+      return tags ? !tags.includes("updates") : true;
+    },
+  }),
+);
 
 export default site;
