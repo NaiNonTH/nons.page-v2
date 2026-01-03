@@ -5,7 +5,7 @@
     --extra-bg: #f1ebdf;
     --extra-fg: #171715;
 
-    --link: orange;
+    --link: #b50909;
     --sub-fg: #5f5c56;
 
     --border-1: #beb8ac;
@@ -21,6 +21,7 @@
         --extra-bg: #2f2e2b;
         --extra-fg: #f1ebdf;
 
+        --link: orange;
         --sub-fg: #beb8ac;
 
         --border-1: #5f5c56;
