@@ -16,7 +16,6 @@ import filter_pages from "lume/plugins/filter_pages.ts";
 import cacheBusting from "https://cdn.jsdelivr.net/gh/lumeland/experimental-plugins@15362c4/cache_busting/mod.ts";
 
 import { figure } from "npm:@mdit/plugin-figure@0.22.2";
-import { format } from "npm:date-fns";
 import { Page } from "lume/core/file.ts";
 
 const lumeOptions = {
@@ -32,14 +31,6 @@ const markdown = {
 const site = lume(lumeOptions, { markdown });
 
 site.add([".css", ".js", ".png", ".jpg", ".webp", ".svg", ".ico"]);
-
-site.process([".md"], (pages) => {
-  for (const page of pages) {
-    if (!page.sourcePath.startsWith("/updates/content")) continue;
-
-    page.data.title = format(new Date(page.data.basename), "PPP");
-  }
-});
 
 const now = new Date().getTime();
 const birthday = new Date("2005-03-21").getTime();
@@ -80,29 +71,6 @@ site.use(
       authorUrl: "https://nons.page",
     },
     items: {
-      updated: undefined,
-      authorName: "NaiNonTheN00b1",
-      authorUrl: "https://nons.page",
-    },
-  }),
-);
-site.use(
-  feed({
-    output: "/updates/feed.xml",
-    query: "updates !index",
-    sort: "basename=desc",
-    info: {
-      title: "NaiNonTheN00b1's Site Updates",
-      description: "Lists all NaiNonTheN00b1's personal website updates",
-      published: new Date(),
-      lang: "en",
-      hubs: undefined,
-      generator: true,
-      authorName: "NaiNonTheN00b1",
-      authorUrl: "https://nons.page",
-    },
-    items: {
-      published: "=basename",
       updated: undefined,
       authorName: "NaiNonTheN00b1",
       authorUrl: "https://nons.page",

@@ -1,0 +1,35 @@
+---
+layout: false
+url: /updates/feed.xml
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
+  <channel>
+    <title>NaiNonTheN00b1's Site Updates</title>
+    <link>http://nons.page/</link>
+    <atom:link href="http://nons.page/updates/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Lists all NaiNonTheN00b1's personal website updates</description>
+    <lastBuildDate>{{ lastBuilt |> date('HUMAN_DATETIME') }}</lastBuildDate>
+    <language>en</language>
+    <author>
+      <name>NaiNonTheN00b1</name>
+      <uri>https://nons.page</uri>
+    </author>
+    {{ for item of search.pages('updates !index', 'basename=desc') }}
+      <item>
+        <title>{{ item.basename |> date('HUMAN_DATE') }}</title>
+        <link>http://nons.page/updates</link>
+        <guid isPermaLink="false">http://nons.page/updates</guid>
+        <author>
+          <name>NaiNonTheN00b1</name>
+          <uri>https://nons.page</uri>
+        </author>
+        <content:encoded>
+          <![CDATA[{{ item.content |> md }}]]>
+        </content:encoded>
+        <pubDate>{{ item.basename |> date('HUMAN_DATETIME') }}</pubDate>
+      </item>
+    {{ /for }}
+  </channel>
+</rss>
