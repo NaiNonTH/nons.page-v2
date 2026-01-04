@@ -14,16 +14,16 @@ url: /updates/feed.xml
     <language>en</language>
     <author>
       <name>NaiNonTheN00b1</name>
-      <uri>https://nons.page</uri>
+      <uri>https://nons.page/</uri>
     </author>
     {{ for item of search.pages('updates !index', 'basename=desc') }}
       <item>
         <title>{{ item.basename |> date('HUMAN_DATE') }}</title>
-        <link>http://nons.page/updates</link>
-        <guid isPermaLink="false">http://nons.page/updates</guid>
+        <link>http://nons.page/updates/</link>
+        <guid isPermaLink="false">{{ item.url }}</guid>
         <author>
           <name>NaiNonTheN00b1</name>
-          <uri>https://nons.page</uri>
+          <uri>https://nons.page/</uri>
         </author>
         <content:encoded>
           <![CDATA[{{ item.content |> md }}]]>

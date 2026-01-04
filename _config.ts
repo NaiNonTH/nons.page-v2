@@ -21,7 +21,7 @@ import { Page } from "lume/core/file.ts";
 const lumeOptions = {
   src: "www",
   dest: "nons.page",
-  location: new URL("https://nons.page"),
+  location: new URL("https://nons.page/blog/"),
 };
 
 const markdown = {
@@ -63,18 +63,13 @@ site.use(
       title: "NaiNonTheN00b1's Blog",
       description:
         "A place where I would write my thoughts, interests, and things that is going on.",
-      published: new Date(),
-      lang: "en",
-      hubs: undefined,
-      generator: true,
       authorName: "NaiNonTheN00b1",
-      authorUrl: "https://nons.page",
+      authorUrl: "https://nons.page/",
     },
     items: {
-      updated: undefined,
-      authorName: "NaiNonTheN00b1",
-      authorUrl: "https://nons.page",
-    },
+   		authorName: "NaiNonTheN00b1",
+     	authorUrl: "https://nons.page/",
+    }
   }),
 );
 site.use(minify_html());
