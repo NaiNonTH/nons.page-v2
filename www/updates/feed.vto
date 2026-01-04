@@ -10,7 +10,7 @@ url: /updates/feed.xml
     <link>http://nons.page/</link>
     <atom:link href="http://nons.page/updates/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Lists all NaiNonTheN00b1's personal website updates</description>
-    <lastBuildDate>{{ lastBuilt |> date('HUMAN_DATETIME') }}</lastBuildDate>
+    <lastBuildDate>{{ lastBuilt |> date("iii, dd MMM yyyy HH:mm:ss 'GMT+7'") }}</lastBuildDate>
     <language>en</language>
     <author>
       <name>NaiNonTheN00b1</name>
@@ -28,7 +28,7 @@ url: /updates/feed.xml
         <content:encoded>
           <![CDATA[{{ item.content |> md }}]]>
         </content:encoded>
-        <pubDate>{{ item.basename |> date('HUMAN_DATETIME') }}</pubDate>
+        <pubDate>{{ item.basename |> date("iii, dd MMM yyyy '00:00:00' 'GMT'") }}</pubDate>
       </item>
     {{ /for }}
   </channel>
