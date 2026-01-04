@@ -17,6 +17,7 @@ import cacheBusting from "https://cdn.jsdelivr.net/gh/lumeland/experimental-plug
 
 import { figure } from "npm:@mdit/plugin-figure@0.22.2";
 import { format } from "npm:date-fns";
+import { Page } from "lume/core/file.ts";
 
 const lumeOptions = {
   src: "www",
@@ -62,7 +63,6 @@ site.use(
 site.use(lightningcss());
 site.use(metas());
 site.use(inline());
-site.use(validate_html());
 site.use(
   feed({
     output: "/blog/feed.xml",
@@ -112,7 +112,7 @@ site.use(
 site.use(minify_html());
 site.use(
   filter_pages({
-    fn: (page) => {
+    fn: (page: Page) => {
       const { tags } = page.data;
       return tags ? !tags.includes("updates") : true;
     },
@@ -126,5 +126,6 @@ site.use(cacheBusting({
 	attribute: 'rel="shortcut icon"',
 	hashLength: 8
 }));
+site.use(validate_html());
 
 export default site;
