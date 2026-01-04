@@ -13,6 +13,8 @@ import feed from "lume/plugins/feed.ts";
 import minify_html from "lume/plugins/minify_html.ts";
 import filter_pages from "lume/plugins/filter_pages.ts";
 
+import cacheBusting from "https://cdn.jsdelivr.net/gh/lumeland/experimental-plugins@15362c4/cache_busting/mod.ts";
+
 import { figure } from "npm:@mdit/plugin-figure@0.22.2";
 import { format } from "npm:date-fns";
 
@@ -42,7 +44,7 @@ const now = new Date().getTime();
 const birthday = new Date("2005-03-21").getTime();
 
 site.data("age", new Date(now - birthday).getFullYear() - 1970);
-site.data("cacheBust", Date.now());
+site.data("lastBuilt", Date.now());
 
 site.use(date());
 site.use(extract_date());
@@ -116,5 +118,13 @@ site.use(
     },
   }),
 );
+site.use(cacheBusting({
+	attribute: 'rel="stylesheet"',
+	hashLength: 8
+}));
+site.use(cacheBusting({
+	attribute: 'rel="shortcut icon"',
+	hashLength: 8
+}));
 
 export default site;

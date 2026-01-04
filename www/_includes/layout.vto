@@ -12,9 +12,9 @@
         <link rel="alternate" type="application/rss+xml" href="{{ feed.href }}" title="{{ feed.title }}">
     {{ /if }}
 
-    <link rel="shortcut icon" href="/favicon.ico?t={{ cacheBust }}" type="image/x-icon">
-	<link rel="stylesheet" href="/style.css?t={{ cacheBust }}">
-    <link rel="stylesheet" href="/fonts.css?t={{ cacheBust }}">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/fonts.css">
 	<title>{{ url == "/" ? "nons.page" : title + " - nons.page" }}</title>
 </head>
 <body>
@@ -86,7 +86,7 @@
     </main>
     <footer class="site-footer">
         <p>&copy; 2025 • NaiNonTheN00b1</p>
-        <p>Last built on <time datetime="{{ cacheBust |> date('DATE') }}">{{ cacheBust |> date('HUMAN_DATE') }}</time></p>
+        <p>Last built on <time datetime="{{ lastBuilt |> date('DATE') }}">{{ lastBuilt |> date('HUMAN_DATE') }}</time></p>
     </footer>
 </body>
 </html>
