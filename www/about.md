@@ -35,7 +35,7 @@ oldUrl:
 	</div>
 </dl>
 
-Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a 20-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making website for a couple of years now, and I'm still on it.
+Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a 20-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making a website for a couple of years now, and I'm still on it.
 
 ## How I Came Up With My Title
 
@@ -45,49 +45,49 @@ I came up with **NaiNonTheN00b1** at the time when I played CS:GO with my online
 
 NaiNonTH can be split into these three parts with their own meaning:
 
-1. Nai - a romanized Thai word of นาย that means "Mr."
-2. Non - my Thai nickname: นนท์
-3. TH - A country code of Thailand.
+1. **Nai**: a romanized Thai word of นาย that means "Mr."
+2. **Non**: my Thai nickname: นนท์
+3. **TH**: A country code of Thailand.
 
 And that's why I prefer you to call me Non or NaiNon and not Nai.
 
 ## Other Titles
 
-Here are some of my other pennames:
+Here are some of my other pen names:
 
-* NotNaiNonTXD — used for my roblox display name
-* NoncanbeZaza — old, but can still be found.
-* Minekoonnon — too old.
-* Koonnon — ancient.
+* NotNaiNonTXD: used for my roblox display name
+* NoncanbeZaza: old, but can still be found.
+* Minekoonnon: too old.
+* Koonnon: ancient.
 
 ## How Did I Start The Web Development Journey
 
-When I was 14, I was introduced to HTML5 in school, and I did quite a good job at it. That said, however, my journey as a web developer didn't start until I was 18, when I found out that my online friend just made a website. So that time, I relearned the HTML5, but that wasn't it. I started learning CSS, JavaScript, and programming overall. And that's why I got myself into studying Computer Science.
+When I was 14, I was introduced to HTML5 in school, and I did quite a good job at it. That said, however, my journey as a web developer didn't start until I was 18, when I found out that my online friend had just made a website. So that time, I relearned HTML5, but that wasn't it. I started learning CSS, JavaScript, and programming overall. And that's why I got myself into studying Computer Science.
 
 ## The Goal Of This Website
 
-When I made this website in the first place, I wanted my website to be a small, simple, and fast, without crazy features like the others that I found on the internet. Hence, the tech stack used behind the scene also complies with the followings:
+When I made this website in the first place, I wanted my website to be small, simple, and fast, without crazy features like the others that I found on the internet. Hence, the tech stack used behind the scenes also complies with the following:
 
 <dl>
 	<dt>What I Code Is What I Get.</dt>
 	<dd>This means that I won't pick any modern JavaScript frameworks (even <a href="https://astro.build">Astro</a>) for this website, as it outputs other scripts or HTML attributes outside of what I code.</dd>
 	<dt>Platform Independent.</dt>
-	<dd>This means that whenever I want to move from one web hosting service to another, it shouldn't be a hassle. Consequently, any tools that requires me to get locked-in won't be used here. This website also shouldn't include database, which can make things harder to move.</dd>
+	<dd>This means that whenever I want to move from one web hosting service to another, it shouldn't be a hassle. Consequently, any tools that require me to get locked in won't be used here. This website also shouldn't include a database, which can make things harder to move.</dd>
 	<dt>Easy Maintenance.</dt>
-	<dd>This means that even if I forget about this website, it shouldn't fail or at risk of vulnerabilities that require regular software updates in order to fix. As a result, this website shouldn't have any back-end or database.</dd>
+	<dd>This means that even if I forget about this website, it shouldn't fail or be at risk of vulnerabilities that require regular software updates in order to fix. As a result, this website shouldn't have any back-end or database.</dd>
 </dl>
 
 With everything that I've said, this means that traditional SSG *(Static Site Generator)* is the best way to create my website.
 
 ## Me And Video Games
 
-I can tell that Video Games is what I grew up with since my dad also played video games. I got my hands on PSP, PS3, Xbox 360, and then, my own PC. He told me that I always begged to game on his PSP a lot, even if I had one.
+I can tell that Video Games are what I grew up with since my dad also played video games. I got my hands on a PSP, a PS3, an Xbox 360, and then my own PC. He told me that I always begged to play games on his PSP a lot, even if I had one.
 
-Nowadays though, I don't find myself obsessed with playing video games as much as I was before. Not so sure if it's because I'm getting old, or if I just have more things to do.
+Nowadays, though, I don't find myself obsessed with playing video games as much as I was before. Not so sure if it's because I'm getting old, or if I just have more things to do.
 
 ## My PC
 
-Copied from my older website and also [osu! profile page](https://osu.ppy.sh/users/17144141), here is the specification of my PC. Although it's pretty old, but it's still pretty good for my daily usage and games:
+Copied from my older website and also [osu! profile page](https://osu.ppy.sh/users/17144141), here is the specification of my PC. Although it's pretty old, it's still pretty good for my daily usage and games:
 
 * **CPU:** Intel Core i5-8400
 * **Motherboard:** ASUS PRIME B360-PLUS
