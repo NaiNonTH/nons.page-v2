@@ -16,3 +16,5 @@ However, there are certain parts of the laptop that I don't like. The first one 
 ![A Photograph of Dell Latitude 3490 on the front with the lid opened](laptop.jpg "The Dell Latitude 3490 that I'm using")
 
 Despite the good thing it has, I never think of it to be my own personal computer. It's not even mine, so I don't feel like installing much software on it. I'm still looking forward to sending my PC to a computer shop in this incoming week.
+
+**Update (January 6th, 2026): I sent my PC to my computer shop, but it worked just fine. I think it was just trying to fuck me around.**
