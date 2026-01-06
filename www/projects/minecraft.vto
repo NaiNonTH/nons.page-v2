@@ -1,5 +1,6 @@
 ---
 title: Minecraft
+customStyle: "<style>td ul{padding: 0;list-style: none;}</style>"
 projects:
   - name: Bushy Leaves for Faithful 32x
     description: Bushier Leaves for Faithful 32x for Everyone
@@ -83,7 +84,7 @@ projects:
 					<td>{{ project.name }}</td>
 					<td>{{ project.description }}</td>
 					<td>
-						<ul style="padding: 0; list-style: none;">
+						<ul>
 							{{ for name, url of project.links }}
 								<li><a href="{{ url }}">{{ name }}</a></li>
 							{{ /for }}
