@@ -32,11 +32,14 @@ const site = lume(lumeOptions, { markdown });
 
 site.add([".css", ".js", ".png", ".jpg", ".webp", ".svg", ".ico"]);
 
-const now = new Date().getTime();
+const now = new Date();
+
+const nowAsTime = now.getTime();
 const birthday = new Date("2005-03-21").getTime();
 
-site.data("age", new Date(now - birthday).getFullYear() - 1970);
-site.data("lastBuilt", Date.now());
+site.data("age", new Date(nowAsTime - birthday).getFullYear() - 1970);
+site.data("lastBuilt", nowAsTime);
+site.data("copyrightYear", now.getFullYear());
 
 site.use(date());
 site.use(extract_date());
