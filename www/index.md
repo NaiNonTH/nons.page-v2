@@ -1,5 +1,6 @@
 ---
 title: Hello, world!
+description: The internet home of NaiNonTheN00b1. Learn more about him, read his blog posts, see his projects, and more.
 ---
 
 Hi, I'm **Non**, and welcome to my very personal website: [nons.page](/). This is my home of interests, collections of projects, life, and thoughts.
