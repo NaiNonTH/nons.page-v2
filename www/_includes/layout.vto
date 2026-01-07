@@ -20,6 +20,10 @@
         {{ customStyle }}
     {{ /if }}
 
+    {{ for src of scripts }}
+        <script src="{{ src }}" defer cb></script>
+    {{ /for }}
+
 	<title>{{ url == "/" ? "nons.page" : title + " - nons.page" }}</title>
 </head>
 <body>

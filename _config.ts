@@ -92,6 +92,10 @@ site.use(cacheBusting({
 	attribute: 'rel="shortcut icon"',
 	hashLength: 8
 }));
+site.use(cacheBusting({
+	attribute: 'cb',
+	hashLength: 8
+}));
 site.use(validate_html());
 
 export default site;

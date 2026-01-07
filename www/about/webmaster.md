@@ -1,5 +1,5 @@
 ---
-title: About
+title: Webmaster
 templateEngine:
   - vto
   - md
@@ -35,7 +35,7 @@ oldUrl:
 	</div>
 </dl>
 
-Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a 20-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making a website for a couple of years now, and I'm still on it.
+Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a {{ age }}-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making a website for a couple of years now, and I'm still on it.
 
 ## How I Came Up With My Title
 
@@ -63,21 +63,6 @@ Here are some of my other pen names:
 ## How Did I Start The Web Development Journey
 
 When I was 14, I was introduced to HTML5 in school, and I did quite a good job at it. That said, however, my journey as a web developer didn't start until I was 18, when I found out that my online friend had just made a website. So that time, I relearned HTML5, but that wasn't it. I started learning CSS, JavaScript, and programming overall. And that's why I got myself into studying Computer Science.
-
-## The Goal Of This Website
-
-When I made this website in the first place, I wanted my website to be small, simple, and fast, without crazy features like the others that I found on the internet. Hence, the tech stack used behind the scenes also complies with the following:
-
-What I Code Is What I Get.
-  ~ This means that I won't pick any modern JavaScript frameworks (even [Astro](https://astro.build)) for this website, as it outputs other scripts or HTML attributes outside of what I code.
-
-Platform Independent.
-  ~ This means that whenever I want to move from one web hosting service to another, it shouldn't be a hassle. Consequently, any tools that require me to get locked in won't be used here. This website also shouldn't include a database, which can make things harder to move.
-  
-Easy Maintenance.
-  ~ This means that even if I forget about this website, it shouldn't fail or be at risk of vulnerabilities that require regular software updates in order to fix. As a result, this website shouldn't have any back-end or database.
-
-With everything that I've said, this means that traditional SSG *(Static Site Generator)* is the best way to create my website.
 
 ## Me And Video Games
 
