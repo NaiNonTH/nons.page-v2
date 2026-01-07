@@ -4,7 +4,7 @@ templateEngine:
   - vto
   - md
 oldUrl:
-  - /webmaster/index.html
+  - /about/index.html
   - /webmaster/me.html
 ---
 
