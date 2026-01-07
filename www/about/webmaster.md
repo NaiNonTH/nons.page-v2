@@ -37,6 +37,35 @@ oldUrl:
 
 Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a {{ age }}-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making a website for a couple of years now, and I'm still on it.
 
+## My Links
+
+<dl class="index">
+	<div>
+		<dt><a target="_blank" href="https://github.com/NaiNonTH">GitHub</a></dt>
+		<dd>Codes and repositories.</dd>
+	</div>
+	<div>
+		<dt><a target="_blank" href="https://bsky.nons.page">Bluesky</a></dt>
+		<dd>Some random posts</dd>
+	</div>
+	<div>
+		<dt><a target="_blank" href="https://monkeytype.com/profile/NaiNonTheN00b1">Monkeytype</a></dt>
+		<dd>How fast I can type.</dd>
+	</div>
+	<div>
+		<dt><a target="_blank" href="https://osu.ppy.sh/users/17144141">osu!</a></dt>
+		<dd>Codes and repositories.</dd>
+	</div>
+	<div>
+		<dt><a target="_blank" href="https://ko-fi.com/nainonthen00b1">Ko-Fi</a></dt>
+		<dd>Some random posts</dd>
+	</div>
+	<div>
+		<dt><a target="_blank" href="https://www.planetminecraft.com/member/nainonthen00b1/">Planet Minecraft</a></dt>
+		<dd>Minecraft stuff (on hiatus).</dd>
+	</div>
+</dl>
+
 ## How I Came Up With My Title
 
 I came up with **NaiNonTheN00b1** at the time when I played CS:GO with my online friends. It's built upon my previous title: NaiNonTH, since I wanted to get rid of the Thai branding on my name. All I did was change the *TH* at the end into *TheN00b1* because I knew that I sucked.
