@@ -21,7 +21,7 @@ import { Page } from "lume/core/file.ts";
 const lumeOptions = {
   src: "www",
   dest: "nons.page",
-  location: new URL("https://nons.page/blog/"),
+  location: new URL("https://nons.page/"),
 };
 
 const markdown = {
