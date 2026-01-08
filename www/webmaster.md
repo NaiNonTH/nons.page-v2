@@ -54,11 +54,7 @@ Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a {{ age }}-ye
 	</div>
 	<div>
 		<dt><a target="_blank" href="https://osu.ppy.sh/users/17144141">osu!</a></dt>
-		<dd>Codes and repositories.</dd>
-	</div>
-	<div>
-		<dt><a target="_blank" href="https://ko-fi.com/nainonthen00b1">Ko-Fi</a></dt>
-		<dd>Some random posts</dd>
+		<dd>Click the circles...</dd>
 	</div>
 	<div>
 		<dt><a target="_blank" href="https://www.planetminecraft.com/member/nainonthen00b1/">Planet Minecraft</a></dt>
