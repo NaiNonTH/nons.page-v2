@@ -5,7 +5,7 @@ templateEngine:
   - md
 oldUrl:
   - /about/index.html
-  - /webmaster/me.html
+  - /webmaster/me/index.html
 ---
 
 <dl class="row">
@@ -19,7 +19,7 @@ oldUrl:
 	</div>
 	<div>
 		<dt>Age</dt>
-		<dd>{{ age }}</dd>
+		<dd>{{ age }} <i class="shh">(as of {{ lastBuilt |> date('HUMAN_DATE') }})</i></dd>
 	</div>
 	<div>
 		<dt>Birthday</dt>
@@ -61,6 +61,12 @@ Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a {{ age }}-ye
 		<dd>Minecraft stuff (on hiatus).</dd>
 	</div>
 </dl>
+
+## Some Facts About Me
+
+* I'm straight (most of the time).
+* I'm scared of height, ghost, and darkness.
+* I'm allergic to dust.
 
 ## How I Came Up With My Title
 
