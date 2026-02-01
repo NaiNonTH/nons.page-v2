@@ -11,3 +11,5 @@ I set up the project using [Vite](https://vite.dev), because its dev server with
 There's nothing really interesting about the code though. I just follow the CodeMirror API, add some keybindings, give it some styling, and that's it.
 
 It's not perfect though. First of all, the JS payload is pretty big, making CSS loads much slower, resulting in a brief moment of a plain HTML layout. Also, not being able to indent the code using the `Tab` key is kind of annoying, but I think I can get used to it.
+
+**Update:** I just added a loading screen that will only disappear when everything is loaded. This should look better while the CSS is loading.
