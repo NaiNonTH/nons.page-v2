@@ -1,6 +1,7 @@
 ---
-title: That Time When I Lost $250 From Fake Steam Support
+title: That Time When I Lost $250 To Fake Steam Support
 description: While clearing my website, I saw that one fact about me talking about when I got scammed through Discord for $250. Maybe it's time for me to talk about it.
+oldUrl: /blog/250-dollars-lost-from-fake-steam-support/index.html
 ---
 
 **Note:** It's been 3-4 years since it happened, and I already forgot some parts of the timeline, but I think you'll still get the idea.
@@ -20,3 +21,5 @@ Also, there were several sketchy things going on in that situation. First of all
 As I told you, they never paid me back. Which means that I've lost $250 to them through Steam gift cards bought from third-party websites. Thankfully, though, my account is still okay, after I contacted the *REAL* Steam Support to unlock it for me.
 
 And that became the moral for me: whenever I suspect that the person I'm talking to is trying to scam me, end the conversation immediately. Block them, power off your phone, do whatever you can to stop that person from talking to you.
+
+**Update January 15th, 2026:** I fixed grammatical error in the title and the URL ("from" to "to").
