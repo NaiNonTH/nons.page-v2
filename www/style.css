@@ -84,7 +84,8 @@ hr {
 }
 
 dt,
-.with-arrow {
+.with-arrow,
+.pagination-control a {
     font-weight: bold;
 }
 
@@ -113,7 +114,8 @@ dl.row dd {
 
 .with-arrow,
 .blog-title a,
-dl.index dt a {
+dl.index dt a,
+.pagination-control a {
     text-decoration: none;
 }
 
@@ -202,6 +204,9 @@ thead th {
 .blog-title {
     font-size: 1em;
 }
+.blog-index {
+    margin: 3rem 0;
+}
 .blog-index p {
     margin-top: 0.5rem;
 }
@@ -253,4 +258,13 @@ footer,
 .blog-index time,
 .shh {
     color: var(--sub-fg);
+}
+
+.pagination-control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.pagination-control .next {
+    margin-left: auto;
 }

@@ -1,22 +1,8 @@
 ---
-title: Blog
-showTime: false
+layout: null
 tags:
   - index
 ---
 
-<a href="feed.xml" class="with-arrow">RSS Feed</a>
-<section class="blog-index">
-	{{ for i, item of search.pages('blog !index', 'date=desc') }}
-		{{ if i > 0 }}
-			<hr>
-		{{ /if }}
-		<article>
-			<header>
-				<h2 class="blog-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
-				<time datetime="{{ item.date }}">{{ item.date |> date('HUMAN_DATE') }}</time>
-			</header>
-			<p>{{ item.description }}</p>
-		</article>
-	{{ /for }}
-</section>
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Redirecting…</title><meta content="0; url=/blog/1/" http-equiv="refresh"></head><body><h1>Redirecting…</h1><a href="/blog/1/">Click here if you are not redirected.</a></body></html>

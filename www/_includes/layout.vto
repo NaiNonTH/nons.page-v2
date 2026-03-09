@@ -40,11 +40,14 @@
 				{{ for item of breadcrumbsItem }}
 					{{ set home = (item.data.url == '/') }}
 					{{ set current = (url == item.data.url) }}
-					<li>
-						<a
-							aria-current="{{ current }}" href="{{ current ? "" : item.data.url }}">{{ home ? "Home" : item.data.title }}
-						</a>
-					</li>
+
+                    {{ if item.data.title }}
+                        <li>
+                            <a
+                                aria-current="{{ current }}" href="{{ current ? "" : item.data.url }}">{{ home ? "Home" : item.data.title }}
+                            </a>
+                        </li>
+                    {{ /if }}
 				{{ /for }}
             </ol>
         </nav>
@@ -71,7 +74,7 @@
                     <dd>Things that I've made.</dd>
                 </div>
                 <div>
-                    <dt><a href="/blog">Blog</a></dt>
+                    <dt><a href="/blog/1">Blog</a></dt>
                     <dd>My collections of thoughts.</dd>
                 </div>
                 <div>

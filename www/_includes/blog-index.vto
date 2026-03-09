@@ -1,0 +1,27 @@
+---
+layout: layout.vto
+---
+
+<a href="feed.xml" class="with-arrow">RSS Feed</a>
+<section class="blog-index">
+	{{ for i, item of results }}
+		{{ if i > 0 }}
+			<hr>
+		{{ /if }}
+		<article>
+			<header>
+				<h2 class="blog-title"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+				<time datetime="{{ item.date }}">{{ item.date |> date('HUMAN_DATE') }}</time>
+			</header>
+			<p>{{ item.description }}</p>
+		</article>
+	{{ /for }}
+</section>
+<div class="pagination-control">
+	{{ if pagination.previous }}
+		<a href="{{ pagination.previous }}">« Newer</a>
+	{{ /if }}
+	{{ if pagination.next }}
+		<a class="next" href="{{ pagination.next }}">Older »</a>
+	{{ /if }}
+</div>
