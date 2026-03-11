@@ -41,7 +41,7 @@
 					{{ set home = (item.data.url == '/') }}
 					{{ set current = (url == item.data.url) }}
 
-                    {{ if item.data.title }}
+                    {{ if !(item.data.tags.includes('posts')) }}
                         <li>
                             <a
                                 aria-current="{{ current }}" href="{{ current ? "" : item.data.url }}">{{ home ? "Home" : item.data.title }}

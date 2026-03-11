@@ -1,7 +1,7 @@
 export const title = 'Blog'
 export const showTime = false
 export const layout = 'blog-index.vto'
-export const tags = ['index']
+export const tags = ['index', 'posts']
 
 export default function* ({ search, paginate }) {
   const blogPosts = search.pages('blog !index', 'date=desc');
