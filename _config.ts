@@ -17,6 +17,7 @@ import icons from "lume/plugins/icons.ts";
 import cacheBusting from "https://cdn.jsdelivr.net/gh/lumeland/experimental-plugins@15362c4/cache_busting/mod.ts";
 
 import { figure } from "npm:@mdit/plugin-figure@0.22.2";
+import { format, formatISO } from "npm:date-fns@4.1.0";
 import { Page } from "lume/core/file.ts";
 
 const lumeOptions = {
@@ -72,9 +73,9 @@ site.use(
       authorUrl: "https://nons.page/",
     },
     items: {
-   		authorName: "NaiNonTheN00b1",
-     	authorUrl: "https://nons.page/",
-    }
+      authorName: "NaiNonTheN00b1",
+      authorUrl: "https://nons.page/",
+    },
   }),
 );
 site.use(minify_html());
@@ -87,17 +88,30 @@ site.use(
   }),
 );
 site.use(cacheBusting({
-	attribute: 'rel="stylesheet"',
-	hashLength: 8
+  attribute: 'rel="stylesheet"',
+  hashLength: 8,
 }));
 site.use(cacheBusting({
-	attribute: 'rel="shortcut icon"',
-	hashLength: 8
+  attribute: 'rel="shortcut icon"',
+  hashLength: 8,
 }));
 site.use(cacheBusting({
-	attribute: 'cb',
-	hashLength: 8
+  attribute: "cb",
+  hashLength: 8,
 }));
 site.use(validate_html());
+
+site.preprocess([".html"], async (pages) => {
+  for (const page of pages) {
+    const { mtime } = await Deno.stat(site.src(page.sourcePath));
+
+    if (mtime) {
+      page.data.mtime = {
+        hrText: format(mtime, 'PPP'),
+        iso: formatISO(mtime)
+      };
+    }
+  }
+});
 
 export default site;

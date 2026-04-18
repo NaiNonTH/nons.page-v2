@@ -6,6 +6,7 @@ templateEngine:
 oldUrl:
   - /about/index.html
   - /webmaster/me/index.html
+showTime: true
 ---
 
 <dl class="row">

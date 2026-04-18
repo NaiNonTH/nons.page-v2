@@ -56,7 +56,12 @@
 				<h1>{{ title }}</h1>
 
 				{{ if showTime }}
-					<time class="shh" datetime="{{ date }}">{{ date |> date('HUMAN_DATE') }}</time>
+					<p class="shh">
+                        <time datetime="{{ date }}">{{ date |> date('HUMAN_DATE') }}</time>
+				        {{ if mtime }}
+				        	— <i>last updated at <time datetime="{{ mtime.iso }}">{{ mtime.hrText }}</time></i>
+				        {{ /if }}
+                    </p>
 				{{ /if }}
 			</header>
 			{{ content }}
