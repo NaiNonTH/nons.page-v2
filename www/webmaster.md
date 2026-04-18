@@ -35,25 +35,45 @@ oldUrl:
 	</div>
 </dl>
 
-Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a {{ age }}-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making a website for a couple of years now, and I'm still on it.
+Hello again, I'm **Non** _(title: NaiNonTH, NaiNonTheN00b1)._ I'm a {{ age }}-year-old Thai student who is still studying in Computer Science somewhere in Thailand. I've been interested in making a website for a couple of years now, and I'm still on it.
 
 ## My Links
 
 <dl class="index">
 	<div>
-		<dt><a target="_blank" href="https://github.com/NaiNonTH">GitHub</a></dt>
+		<dt>
+		  <a target="_blank" href="https://github.com/NaiNonTH">
+				<img class="cc" src="{{ "github" |> icon("simpleicons") }}" style="vertical-align: middle;" width="18" height="18" inline>
+		    GitHub
+		  </a>
+		</dt>
 		<dd>Codes and repositories.</dd>
 	</div>
 	<div>
-		<dt><a target="_blank" href="https://bsky.nons.page">Bluesky</a></dt>
+		<dt>
+		  <a target="_blank" href="https://bsky.nons.page">
+		    <img class="cc" src="{{ "bluesky" |> icon("simpleicons") }}" style="vertical-align: middle;" width="18" height="18" inline>
+				Bluesky
+			</a>
+		</dt>
 		<dd>Some random posts</dd>
 	</div>
 	<div>
-		<dt><a target="_blank" href="https://monkeytype.com/profile/NaiNonTheN00b1">Monkeytype</a></dt>
+		<dt>
+		  <a target="_blank" href="https://monkeytype.com/profile/NaiNonTheN00b1">
+        <img class="cc v-middle" src="{{ "monkeytype" |> icon("simpleicons") }}" style="vertical-align: middle;" width="18" height="18" inline>
+        Monkeytype
+			</a>
+		</dt>
 		<dd>How fast I can type.</dd>
 	</div>
 	<div>
-		<dt><a target="_blank" href="https://osu.ppy.sh/users/17144141">osu!</a></dt>
+		<dt>
+		  <a target="_blank" href="https://osu.ppy.sh/users/17144141">
+				<img class="cc v-middle" src="{{ "osu" |> icon("simpleicons") }}" style="vertical-align: middle;" width="18" height="18" inline>
+        osu!
+			</a>
+		</dt>
 		<dd>Click the circles...</dd>
 	</div>
 	<div>
@@ -64,13 +84,13 @@ Hello again, I'm **Non** *(title: NaiNonTH, NaiNonTheN00b1).* I'm a {{ age }}-ye
 
 ## Some Facts About Me
 
-* I'm straight (most of the time).
-* I'm scared of height, ghost, and darkness.
-* I'm allergic to dust.
+- I'm straight (most of the time).
+- I'm scared of height, ghost, and darkness.
+- I'm allergic to dust.
 
 ## How I Came Up With My Title
 
-I came up with **NaiNonTheN00b1** at the time when I played CS:GO with my online friends. It's built upon my previous title: NaiNonTH, since I wanted to get rid of the Thai branding on my name. All I did was change the *TH* at the end into *TheN00b1* because I knew that I sucked.
+I came up with **NaiNonTheN00b1** at the time when I played CS:GO with my online friends. It's built upon my previous title: NaiNonTH, since I wanted to get rid of the Thai branding on my name. All I did was change the _TH_ at the end into _TheN00b1_ because I knew that I sucked.
 
 ### And What About NaiNonTH?
 
@@ -86,10 +106,10 @@ And that's why I prefer you to call me Non or NaiNon and not Nai.
 
 Here are some of my other pen names:
 
-* NotNaiNonTXD: used for my roblox display name
-* NoncanbeZaza: old, but can still be found.
-* Minekoonnon: too old.
-* Koonnon: ancient.
+- NotNaiNonTXD: used for my roblox display name
+- NoncanbeZaza: old, but can still be found.
+- Minekoonnon: too old.
+- Koonnon: ancient.
 
 ## How Did I Start The Web Development Journey
 
@@ -105,30 +125,30 @@ Nowadays, though, I don't find myself obsessed with playing video games as much 
 
 Copied from my older website and also [osu! profile page](https://osu.ppy.sh/users/17144141), here is the specification of my PC. Although it's pretty old, it's still pretty good for my daily usage and games:
 
-* **CPU:** Intel Core i5-8400
-* **Motherboard:** ASUS PRIME B360-PLUS
-* **RAM:** Kingston HyperX FURY 16GB/2666 DDR4 Dual-channel
-* **GPU:** ASUS ROG STRIX GeForce GTX 1060 (6GB) GAMING
-* **HDD:** WD Black 1TB
-* **SSD:**
-  * Lexar SSD 240GB
-  * WD Blue 3D NAND SATA SSD 500GB
-* **PSU:** Thermaltake 650W TR2 S
+- **CPU:** Intel Core i5-8400
+- **Motherboard:** ASUS PRIME B360-PLUS
+- **RAM:** Kingston HyperX FURY 16GB/2666 DDR4 Dual-channel
+- **GPU:** ASUS ROG STRIX GeForce GTX 1060 (6GB) GAMING
+- **HDD:** WD Black 1TB
+- **SSD:**
+  - Lexar SSD 240GB
+  - WD Blue 3D NAND SATA SSD 500GB
+- **PSU:** Thermaltake 650W TR2 S
 
 ### My Accessories
 
-* **Mouse:** [Saru MXB1 HAM White Wireless Gaming Mouse](https://www.itcity.in.th/en/product/SARU-GAMING-MOUSE-WIRELESS-MXB1-HAM-WHITE_PRD202408008080)
-* **Keyboard:** [Loga Base 104 Wireless Mechanical Keyboard](https://logaworld.com/products/loga-base-104-barebone-wireless-mechanical-keyboard?variant=46457526845578) ([ChaThai Tactile switch](https://logaworld.com/products/loga-mechanical-keyboard-switches-nomyen-chathai-35-pcs-box?_pos=1&_psq=Cha+thai&_ss=e&_v=1.0&variant=46069987180682))
-  * A little note that I bought this as a "DIY" set with switches and keycaps. Despite having a "DIY" in the name, the staff built it for me.
-* **Headset:** Onikuma Kuma B2
-* **Unbranded Mouse Mat**. It has a World Map Pattern, with the size of <span style="display:inline-block;">80 cm x 30 cm x 3 mm.</span>
+- **Mouse:** [Saru MXB1 HAM White Wireless Gaming Mouse](https://www.itcity.in.th/en/product/SARU-GAMING-MOUSE-WIRELESS-MXB1-HAM-WHITE_PRD202408008080)
+- **Keyboard:** [Loga Base 104 Wireless Mechanical Keyboard](https://logaworld.com/products/loga-base-104-barebone-wireless-mechanical-keyboard?variant=46457526845578) ([ChaThai Tactile switch](https://logaworld.com/products/loga-mechanical-keyboard-switches-nomyen-chathai-35-pcs-box?_pos=1&_psq=Cha+thai&_ss=e&_v=1.0&variant=46069987180682))
+  - A little note that I bought this as a "DIY" set with switches and keycaps. Despite having a "DIY" in the name, the staff built it for me.
+- **Headset:** Onikuma Kuma B2
+- **Unbranded Mouse Mat**. It has a World Map Pattern, with the size of <span style="display:inline-block;">80 cm x 30 cm x 3 mm.</span>
 
 ### My Former Accessories
 
 Anything that I've used before will be mentioned here.
 
-* **Mouse:** Neolution E-Sport Mirage (2019-2025)
-* **Keyboard:** Neolution E-Sport Hera (2019-2025)
-* **Headset:**
-	* Nubwo X98 (????-2026)
-	* Nubwo Tanger NO-15 (????-????: I stopped using it for so long that I can't remember the year I started and stopped using.)
+- **Mouse:** Neolution E-Sport Mirage (2019-2025)
+- **Keyboard:** Neolution E-Sport Hera (2019-2025)
+- **Headset:**
+  - Nubwo X98 (????-2026)
+  - Nubwo Tanger NO-15 (????-????: I stopped using it for so long that I can't remember the year I started and stopped using.)

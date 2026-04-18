@@ -12,6 +12,7 @@ import validate_html from "lume/plugins/validate_html.ts";
 import feed from "lume/plugins/feed.ts";
 import minify_html from "lume/plugins/minify_html.ts";
 import filter_pages from "lume/plugins/filter_pages.ts";
+import icons from "lume/plugins/icons.ts";
 
 import cacheBusting from "https://cdn.jsdelivr.net/gh/lumeland/experimental-plugins@15362c4/cache_busting/mod.ts";
 
@@ -41,6 +42,7 @@ site.data("age", new Date(nowAsTime - birthday).getFullYear() - 1970);
 site.data("lastBuilt", nowAsTime);
 site.data("copyrightYear", now.getFullYear());
 
+site.use(icons());
 site.use(date());
 site.use(extract_date());
 site.use(nav());

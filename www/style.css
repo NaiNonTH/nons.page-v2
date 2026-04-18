@@ -268,3 +268,12 @@ footer,
 .pagination-control .next {
     margin-left: auto;
 }
+
+.cc {
+    color: currentColor;
+    fill: currentColor;
+}
+
+.v-middle {
+    vertical-align: middle;
+}
