@@ -1,3 +1,5 @@
 _cache
 .env
 /nons.page*
+
+.DS_Store
